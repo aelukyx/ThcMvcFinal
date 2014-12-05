@@ -1,0 +1,13 @@
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.DB.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Interfaces.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Models.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Services.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.DB.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Interfaces.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Models.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Services.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.csprojResolveAssemblyReference.cache
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.pdb
