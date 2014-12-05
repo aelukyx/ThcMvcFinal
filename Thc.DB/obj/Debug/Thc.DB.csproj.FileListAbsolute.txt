@@ -1,0 +1,9 @@
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.DB.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.DB.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.Interfaces.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.Models.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.Interfaces.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.Models.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\obj\Debug\Thc.DB.csprojResolveAssemblyReference.cache
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\obj\Debug\Thc.DB.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\obj\Debug\Thc.DB.pdb
