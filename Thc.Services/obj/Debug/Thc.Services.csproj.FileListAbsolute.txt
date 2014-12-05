@@ -9,3 +9,14 @@ C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.csprojResolveAssemblyReference.cache
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.dll
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.Services.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.Services.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.DB.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.Interfaces.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.Models.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.DB.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.Interfaces.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\Thc.Models.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.csprojResolveAssemblyReference.cache
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.pdb

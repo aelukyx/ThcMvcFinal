@@ -5,3 +5,10 @@ C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Th
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.csprojResolveAssemblyReference.cache
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.dll
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Thc.Interfaces.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Thc.Interfaces.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Thc.Models.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Thc.Models.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.pdb

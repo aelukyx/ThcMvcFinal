@@ -3,3 +3,8 @@ C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Thc.Mo
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.csprojResolveAssemblyReference.cache
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.dll
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Thc.Models.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Thc.Models.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.csprojResolveAssemblyReference.cache
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.pdb
