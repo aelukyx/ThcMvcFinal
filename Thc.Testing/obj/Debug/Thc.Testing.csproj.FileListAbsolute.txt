@@ -24,3 +24,5 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Servic
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.csprojResolveAssemblyReference.cache
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\EntityFramework.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\EntityFramework.xml

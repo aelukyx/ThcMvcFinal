@@ -16,3 +16,8 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.Models.pdb
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\obj\Debug\Thc.DB.csprojResolveAssemblyReference.cache
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\obj\Debug\Thc.DB.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\obj\Debug\Thc.DB.pdb
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.DB.dll.config
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.xml
+C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.SqlServer.xml
