@@ -88,5 +88,52 @@ namespace Thc.Web.Controllers
             return File(data, contentType, imageName);
         }
 
+        //public FileContentResult GetImage(Int32 CategoryID)
+        //{
+        //    Auto cat = entities.Autos.FirstOrDefault(c => c.Id == CategoryID);
+
+        //    if (cat != null)
+        //    {
+
+        //        string type = string.Empty;
+        //        if (!string.IsNullOrEmpty(cat.ImageMimeType))
+        //        {
+        //            type = cat.ImageMimeType;
+        //        }
+        //        else
+        //        {
+        //            type = "image/jpeg";
+        //        }
+
+        //        return File(cat.Picture, type);
+        //    }
+        //    else
+        //    {
+        //        return null;
+        //    }
+        //}
+
+
+        //[HttpPost]
+        //public ActionResult SendImage(HttpPostedFileBase img)
+        //{
+        //    var data = new byte[img.ContentLength];
+        //    img.InputStream.Read(data, 0, img.ContentLength);
+        //    var path = ControllerContext.HttpContext.Server.MapPath("/");
+        //    var filename = Path.Combine(path, Path.GetFileName(img.FileName));
+        //    System.IO.File.WriteAllBytes(Path.Combine(path, filename), data);
+        //    ViewBag.ImageUploaded = filename;
+        //    return View("Index");
+        //}
+
+        //public ActionResult Preview(string file)
+        //{
+        //    var path = ControllerContext.HttpContext.Server.MapPath("/");
+        //    if (System.IO.File.Exists(Path.Combine(path, file)))
+        //    {
+        //        return File(Path.Combine(path, file), "image/jpeg");
+        //    }
+        //    return new HttpNotFoundResult();
+        //}
     }
 }

@@ -1,0 +1,193 @@
+﻿@model Thc.Models.Models.Cliente
+
+@{
+    ViewBag.Title = "Crear Cliente";
+}
+
+<script type="text/javascript">
+    function mostrar(id) {
+        if (id == "True") {
+            $("#Appellidos").show();
+            $("#AppPaterno").show();
+            $("#AppMaterno").show();
+            $("#DniRuc").val("");
+            $("#DniRuc").attr('maxlength', '8');
+            $("#lblNombRazSoc").text("Nombres");
+	    }
+        if (id == "False") {
+            $("#Appellidos").hide();
+            $("#AppPaterno").hide();
+            $("#AppMaterno").hide();
+            $("#AppPaterno").val("");
+            $("#AppMaterno").val("");
+            $("#DniRuc").val("");
+            $("#DniRuc").attr('maxlength', '11');
+            $("#lblNombRazSoc").text("Razon Social");
+	    }
+    }
+</script>
+    
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+
+	<div class="row clearfix">
+		<div class="col-md-4 column">
+            <div class="panel panel-primary" style="width:78%">
+              <div class="panel-heading">
+                <b>Tipo de Documento</b>
+              </div>
+                <div class="panel-body">
+                    @Html.RadioButton("TipoDoc", "True", true, new { onChange = "mostrar(this.value)", style="width:20px;" }) <b style="color:#555555 ">DNI</b>&nbsp;&nbsp;<img src="~/Content/icons/dni-icon.png" width="24px"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                    @Html.RadioButton("TipoDoc", "False", false, new { onChange = "mostrar(this.value)", style="width:20px;" }) <b style="color:#555555">RUC</b>&nbsp;&nbsp;<img src="~/Content/icons/ruc-icon.png" width="24px"/>&nbsp;&nbsp;
+                    @Html.ValidationMessageFor(model => model.TipoDoc)
+                </div>
+                <div class="editor-field">
+                    <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>N°</b>&nbsp;&nbsp;@Html.TextBoxFor(model => model.DniRuc, new { maxlength="8", size="50px", style="width:50%;"})
+                    @Html.ValidationMessageFor(model => model.DniRuc)
+                    </p>
+                </div>
+            </div>
+		</div>
+	</div>
+    
+	<div class="row clearfix">
+		<div class="col-md-9 column">
+            <div class="panel panel-primary">
+              <div class="panel-body">
+
+	            <div class="row clearfix">
+		            <div class="col-md-5 column">
+
+                        <div class="editor-label">
+                            @Html.Label("Nombres", new { id = "lblNombRazSoc" })
+                        </div>
+                        <div class="editor-field">
+                       <div class="input-group">
+                           <div class="input-group-addon"><img src="~/Content/icons/name-icon.png" width="18px"/></div>
+                               @Html.TextBoxFor(model => model.NombresRazonSocial, new { style="width:257px"})
+                           </div>
+                           <p>
+                            @Html.ValidationMessageFor(model => model.NombresRazonSocial)
+                           </p>
+                        </div>
+
+                        <div id="Appellidos">
+                            <div class="editor-field">
+                                @Html.Label("Appellido Paterno")
+                            </div>
+                            <div class="editor-field">
+                                <div class="input-group">
+                                  <div class="input-group-addon"><img src="~/Content/icons/apps-icon.png" width="18px"/></div>
+                                   @Html.TextBoxFor(model => model.AppPaterno, new { style="width:257px"})
+                                </div>
+                               <p>
+                                @Html.ValidationMessageFor(model => model.AppPaterno)
+                                </p>
+                            </div>
+                            <div class="editor-field">
+                                @Html.Label("Appellido Materno")
+                            </div>
+                            <div class="editor-field">
+                                <div class="input-group">
+                                  <div class="input-group-addon"><img src="~/Content/icons/apps-icon.png" width="18px"/></div>
+                                   @Html.TextBoxFor(model => model.AppMaterno, new { style="width:257px"})
+                                </div>
+                               <p>
+                                @Html.ValidationMessageFor(model => model.AppMaterno)
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.Celular)
+                        </div>
+                        <div class="editor-field">
+                            <div class="input-group">
+                              <div class="input-group-addon"><img src="~/Content/icons/cellphone-icon.png" width="18px"/></div>
+                               @Html.TextBoxFor(model => model.Celular, new { style="width:257px"})
+                            </div>
+                           <p>
+                            @Html.ValidationMessageFor(model => model.Celular)
+                            </p>
+                        </div>
+
+                        <div class="editor-label">
+                            @Html.Label("Teléfono")
+                        </div>
+                        <div class="editor-field">
+                            <div class="input-group">
+                              <div class="input-group-addon"><img src="~/Content/icons/phone-icon.png" width="18px"/></div>
+                               @Html.TextBoxFor(model => model.Telefono, new { style="width:257px"})
+                            </div>
+                           <p>
+                            @Html.ValidationMessageFor(model => model.Telefono)
+                            </p>
+                        </div>
+
+		            </div>
+
+		            <div class="col-md-1 column">
+		            </div>
+		            <div class="col-md-4 column">
+
+                        <div class="editor-label">
+                            @Html.Label("Dirección")
+                        </div>
+                        <div class="editor-field">
+                            <div class="input-group">
+                              <div class="input-group-addon"><img src="~/Content/icons/house-icon.png" width="18px"/></div>
+                               @Html.TextBoxFor(model => model.Direccion, new { style="width:257px"})
+                            </div>
+                           <p>
+                            @Html.ValidationMessageFor(model => model.Direccion)
+                            </p>
+                        </div>
+                        <div class="editor-label">
+                            @Html.Label("E-mail")
+                        </div>
+                        <div class="editor-field">
+                            <div class="input-group">
+                              <div class="input-group-addon"><img src="~/Content/icons/email2-icon.png" width="18px"/></div>
+                               @Html.TextBoxFor(model => model.Email, new { style="width:257px"})
+                            </div>
+                            <p>
+                            @Html.ValidationMessageFor(model => model.Email, "Ingrese un E-mail Válido: ejemplo@ejemplo.com")
+                            </p>
+                        </div>
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.Comentarios)
+                        </div>
+                        <div class="editor-field">
+                            <p>
+                            @Html.TextAreaFor(model => model.Comentarios, new { style="width:300px; height:175px"})
+                            @Html.ValidationMessageFor(model => model.Comentarios)
+                            </p>
+                        </div>
+		            </div>
+	            </div>
+              </div>
+            </div>
+		</div>
+	</div>
+  
+    <div class="row clearfix">
+	    <div class="col-md-9 column" style="text-align:center">
+            <p>
+                <button type="submit" class="btn btn-success">GRABAR</button>&nbsp;&nbsp;
+                <a href="@Url.Action("Index", "Cliente")" class="btn btn-danger" style="margin: auto; color: #ffffff;">
+                    CANCELAR
+                </a>
+            </p>
+        </div>
+    </div>
+
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

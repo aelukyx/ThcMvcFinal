@@ -13,10 +13,5 @@ C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Entity
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.xml
 C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Thc.Models.dll.config
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.dll
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.xml
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\es\EntityFramework.resources.dll
-C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\es\EntityFramework.SqlServer.resources.dll
