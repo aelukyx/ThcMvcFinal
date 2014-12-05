@@ -22,3 +22,5 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Servi
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\obj\Debug\Thc.Services.pdb
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\EntityFramework.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\EntityFramework.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\EntityFramework.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Services\bin\Debug\EntityFramework.xml

@@ -26,3 +26,5 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testin
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\obj\Debug\Thc.Testing.pdb
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\EntityFramework.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\EntityFramework.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\EntityFramework.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\EntityFramework.xml

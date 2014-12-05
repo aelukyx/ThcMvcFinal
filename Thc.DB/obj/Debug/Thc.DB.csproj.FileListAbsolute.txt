@@ -21,3 +21,14 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.xml
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Thc.DB.dll.config
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.DB\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
