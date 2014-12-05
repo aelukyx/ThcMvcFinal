@@ -8,3 +8,8 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Thc.Models.
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.csprojResolveAssemblyReference.cache
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Models\obj\Debug\Thc.Models.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\Thc.Models.dll.config
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Models\bin\Debug\EntityFramework.SqlServer.xml

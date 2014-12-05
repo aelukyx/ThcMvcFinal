@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thc.Services", "Thc.Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thc.Testing", "Thc.Testing\Thc.Testing.csproj", "{782FB85D-5CA1-496A-91B7-432B70DC25E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thc.Web", "Thc.Web\Thc.Web.csproj", "{03531672-D284-4DB1-8F0C-1A9290F0DBB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{782FB85D-5CA1-496A-91B7-432B70DC25E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{782FB85D-5CA1-496A-91B7-432B70DC25E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{782FB85D-5CA1-496A-91B7-432B70DC25E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03531672-D284-4DB1-8F0C-1A9290F0DBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03531672-D284-4DB1-8F0C-1A9290F0DBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03531672-D284-4DB1-8F0C-1A9290F0DBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03531672-D284-4DB1-8F0C-1A9290F0DBB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

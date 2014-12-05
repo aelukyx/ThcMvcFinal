@@ -12,3 +12,8 @@ C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Thc.Mod
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.csprojResolveAssemblyReference.cache
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.dll
 C:\Users\HP-LAPTOP\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\obj\Debug\Thc.Interfaces.pdb
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\Thc.Interfaces.dll.config
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
