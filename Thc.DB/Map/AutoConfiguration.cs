@@ -30,6 +30,8 @@ namespace Thc.DB.Map
 
             Property(o => o.Imagen).HasColumnName("Imagen").HasColumnType("image");
 
+            //Property(o => o.ImageMimeType).HasColumnName("ImageMimeType").IsOptional();
+
             HasOptional(o => o.Estado)
                 .WithMany(o => o.Autos)
                 .HasForeignKey(o => o.EstadoId);

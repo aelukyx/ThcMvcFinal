@@ -13,6 +13,11 @@ namespace Thc.Interfaces.Services
         IList<Alquiler> All();
         Alquiler GetById(int id);
 
+        //
+        Usuario GetUsuarioById(int id);
+        List<Usuario> GetUsuarios();
+
+        Usuario GetClienteById(int id);
         List<Cliente> GetClientes();
 
         Unidad GetAutoById(int id);
@@ -20,6 +25,7 @@ namespace Thc.Interfaces.Services
 
         Unidad GetConductorById(int id);
         List<Conductor> GetConductores();
+        //
 
         void Insert(Alquiler alquiler);
         void Update(Alquiler alquiler);

@@ -323,14 +323,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Alquiler\Create.cshtml" />
-    <Content Include="Views\Alquiler\Index.cshtml" />
-    <Content Include="Views\Cliente\Create.cshtml" />
-    <Content Include="Views\Proveedor\Create.cshtml" />
-    <Content Include="Views\Proveedor\Index.cshtml" />
-    <Content Include="Views\Auto\Create.cshtml" />
-    <Content Include="Views\Auto\Index.cshtml" />
-    <Content Include="Views\Cliente\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

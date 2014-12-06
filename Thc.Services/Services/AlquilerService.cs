@@ -38,6 +38,21 @@ namespace Thc.Services.Services
             return entities.Alquileres.First(x => x.Id == id);
         }
 
+        public Usuario GetUsuarioById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Usuario> GetUsuarios()
+        {
+            return entities.Usuarios.ToList();
+        }
+
+        public Usuario GetClienteById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Cliente> GetClientes()
         {
             return entities.Clientes.ToList();

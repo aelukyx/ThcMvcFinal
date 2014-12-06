@@ -23,6 +23,7 @@ namespace Thc.DB.DB
         public virtual IDbSet<Unidad> Unidades { get; set; }
         public virtual IDbSet<Alquiler> Alquileres { get; set; }
         public virtual IDbSet<Conductor> Conductores { get; set; }
+        public virtual IDbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

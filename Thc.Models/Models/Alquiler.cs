@@ -20,6 +20,9 @@ namespace Thc.Models.Models
 
         public String LugarReferencia { get; set; }
 
+        public int? UsuarioId { get; set; }
+        public virtual Usuario Usuario { get; set; }
+
         public int? ClienteId { get; set; }
         public virtual Cliente Cliente { get; set; }
 

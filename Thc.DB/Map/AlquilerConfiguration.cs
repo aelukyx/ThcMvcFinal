@@ -32,6 +32,10 @@ namespace Thc.DB.Map
             Property(o => o.MontoXdia).HasColumnName("MontoXdia").IsRequired();
             Property(o => o.MontoTotal).HasColumnName("MontoTotal").IsRequired();
 
+            HasOptional(o => o.Usuario)
+                .WithMany(o => o.Alquileres)
+                .HasForeignKey(o => o.UsuarioId);
+
             HasOptional(p => p.Cliente)
                 .WithMany(p => p.Alquileres)
                 .HasForeignKey(p => p.ClienteId);
