@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1052]C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.dll</TopNode>
+  <SelectedNode>[0-1052]C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1052]C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.dll" Expanded="true" />
+    <Node UniqueName="[0-1059]Demo" Expanded="true" />
+    <Node UniqueName="[0-1060]Demo.Test" Expanded="true" />
+    <Node UniqueName="[0-1061]Demo.Test.Services" Expanded="true" />
+    <Node UniqueName="[0-1053]Thc" Expanded="true" />
+    <Node UniqueName="[0-1054]Thc.Testing" Expanded="true" />
+    <Node UniqueName="[0-1055]Thc.Testing.AlquilerControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1000]Thc.Testing.AlquilerControllerTest.AlquilerControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1056]Thc.Testing.AutoControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1009]Thc.Testing.AutoControllerTest.AutoControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1057]Thc.Testing.ClienteControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1018]Thc.Testing.ClienteControllerTest.ClienteControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1058]Thc.Testing.ProveedorControllerTest" Expanded="true" />
+    <Node UniqueName="[0-1027]Thc.Testing.ProveedorControllerTest.ProveedorControllerTest" Expanded="true" />
+  </Nodes>
+</VisualState>

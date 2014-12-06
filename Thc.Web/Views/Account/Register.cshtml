@@ -3,33 +3,72 @@
     ViewBag.Title = "Registrarse";
 }
 
-<hgroup class="title">
-    <h1>@ViewBag.Title.</h1>
-    <h2>Cree una cuenta nueva.</h2>
-</hgroup>
-
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
+    
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+            <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <hgroup class="title">
+                        <p><h1>Registrar Usuario</h1></p>
+                    </hgroup>
+                  </div>
+                  <div class="panel-body">
+                    <fieldset>
+                    <legend>Formulario de inicio de sesión</legend>
+                    <table style="width:100%">
+                        <tr>
+                            <td style="width:40%; color:#497699">
+                            @Html.Label("Nombre de Usuario : ")
+                            </td>
+                            <td style="width:60%">
+                            <p>@Html.TextBoxFor(m => m.UserName)</p>
+                            <p>@Html.ValidationMessageFor(m => m.UserName)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color:#497699">
+                            @Html.Label("Contraseña : ")
+                            </td>
+                            <td>
+                            <p>@Html.PasswordFor(m => m.Password)</p>
+                            <p>@Html.ValidationMessageFor(m => m.Password)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color:#497699">
+                            @Html.Label("Confirmar Contraseña : ")
+                            </td>
+                            <td>
+                            <p>@Html.PasswordFor(m => m.ConfirmPassword)</p>
+                            <p>@Html.ValidationMessageFor(m => m.ConfirmPassword)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                                <p>
+                                    <button type="submit" value="Registrarse"  class="btn btn-primary">Registrar</button>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                  </div>
+                </div>
+		</div>
+		<div class="col-md-4 column">
+		</div>
+	</div>
+        
+    
+    
 
-    <fieldset>
-        <legend>Formulario de registro</legend>
-        <ol>
-            <li>
-                @Html.LabelFor(m => m.UserName)
-                @Html.TextBoxFor(m => m.UserName)
-            </li>
-            <li>
-                @Html.LabelFor(m => m.Password)
-                @Html.PasswordFor(m => m.Password)
-            </li>
-            <li>
-                @Html.LabelFor(m => m.ConfirmPassword)
-                @Html.PasswordFor(m => m.ConfirmPassword)
-            </li>
-        </ol>
-        <input type="submit" value="Registrarse" />
-    </fieldset>
+    
+
 }
 
 @section Scripts {

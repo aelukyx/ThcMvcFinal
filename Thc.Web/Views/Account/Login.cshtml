@@ -1,48 +1,77 @@
 ﻿@model Thc.Web.Models.LoginModel
 
 @{
-    ViewBag.Title = "Iniciar sesión";
+    ViewBag.Title = "Iniciar Sesión";
 }
 
-<hgroup class="title">
-    <h1>@ViewBag.Title.</h1>
-</hgroup>
+
 
 <section id="loginForm">
-<h2>Utilice una cuenta local para iniciar sesión.</h2>
 @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
-    <fieldset>
+<div style="padding:0px 30px 0px 0px">
+   <div class="panel panel-success">
+      <div class="panel-heading">
+        <hgroup class="title">
+            <p><h1>Iniciar Sesión</h1></p>
+        </hgroup>
+      </div>
+      <div class="panel-body">
+        <fieldset>
         <legend>Formulario de inicio de sesión</legend>
-        <ol>
-            <li>
-                @Html.LabelFor(m => m.UserName)
-                @Html.TextBoxFor(m => m.UserName)
-                @Html.ValidationMessageFor(m => m.UserName)
-            </li>
-            <li>
-                @Html.LabelFor(m => m.Password)
-                @Html.PasswordFor(m => m.Password)
-                @Html.ValidationMessageFor(m => m.Password)
-            </li>
-            <li>
-                @Html.CheckBoxFor(m => m.RememberMe)
-                @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
-            </li>
-        </ol>
-        <input type="submit" value="Iniciar sesión" />
+        <table style="width:100%">
+            <tr>
+                <td style="width:40%; color:#497699">
+                @Html.Label("Nombre de Usuario : ")
+                </td>
+                <td style="width:60%">
+                <p>@Html.TextBoxFor(m => m.UserName)</p>
+                <p>@Html.ValidationMessageFor(m => m.UserName)</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="color:#497699">
+                @Html.Label("Contraseña : ")
+                </td>
+                <td>
+                <p>@Html.PasswordFor(m => m.Password)</p>
+                <p>@Html.ValidationMessageFor(m => m.Password)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td style="color:#5c8096 ">
+                <p>@Html.CheckBoxFor(m => m.RememberMe)
+                   @Html.Label("¿Recordar Cuenta?")</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <p>
+                        <button type="submit" value="Iniciar sesión"  class="btn btn-success">Iniciar Sesión</button>
+                        &nbsp;&nbsp;<a href="@Url.Action("Register", "Account")" class="btn btn-primary" style="margin: auto; color: #ffffff;">
+                            Regístrese
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
     </fieldset>
-    <p>
-        @Html.ActionLink("Regístrese", "Register") si no tiene ninguna cuenta.
-    </p>
+      </div>
+    </div>
+</div>    
+    
+
+    
 }
 </section>
 
 <section class="social" id="socialLoginForm">
-    <h2>Usar otro servicio para iniciar sesión.</h2>
-    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
 </section>
 
 @section Scripts {

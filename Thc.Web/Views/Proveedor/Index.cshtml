@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Thc.Models.Models.Proveedor>
+
+@{
+    ViewBag.Title = "Proveedores";
+}
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1>Lista de Proveedores</h1>
+  </div>
+  <div class="panel-body">
+    <form method="GET" class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" name="buscar" class="form-control" size="60"/>
+        </div>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-success">Buscar</button>
+    </form>
+    <div align="right">
+        <a href="@Url.Action("Create", "Proveedor")" class="btn btn-warning" style="margin: auto; color: #ffffff;">
+            Nuevo Proveedor
+        </a>
+    </div>
+  </div>
+  <div class="panel-body">
+    <table class="table table-condensed table-striped">
+        <tr class="info text-primary" style="font-size:12.5px; text-align:center">
+            <th>
+                RUC
+            </th>
+            <th>
+                Razon Social
+            </th>
+            <th>
+                Ciudad
+            </th>
+            <th>
+                Dirección
+            </th>
+            <th>
+                Teléfono
+            </th>
+            <th>
+                Celular
+            </th>
+            <th>
+                E-mail
+            </th>
+            <th>
+                Acción
+            </th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NroRUC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RazonSocial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciudad.NameCiudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td align="right">
+                <img src="~/Content/icons/pencil-icon.png" title="Editar" width="16px"/>&nbsp;
+                <img src="~/Content/icons/delete-icon.png" title="Eliminar"  width="18px"/>
+            </td>
+        </tr>
+    }
+
+</table>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

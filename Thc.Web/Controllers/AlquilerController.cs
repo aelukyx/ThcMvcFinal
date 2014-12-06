@@ -31,12 +31,10 @@ namespace Thc.Web.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            var usuarios = service.GetUsuarios();
             var clientes = service.GetClientes();
             var autos = service.GetAutos();
             var conductores = service.GetConductores();
 
-            ViewData["UsuarioId"] = new SelectList(usuarios, "Id", "NameUser");
             ViewData["ClienteId"] = new SelectList(clientes, "Id", "NombresRazonSocial");
             ViewData["AutoId"] = new SelectList(autos, "Id", "Placa");
             ViewData["ConductorId"] = new SelectList(conductores, "Id", "NameConductor");

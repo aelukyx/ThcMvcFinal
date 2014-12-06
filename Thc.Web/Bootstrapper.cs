@@ -2,6 +2,9 @@ using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using Unity.Mvc4;
 
+using Thc.Interfaces.Services;
+using Thc.Services.Services;
+
 namespace Thc.Web
 {
   public static class Bootstrapper
@@ -25,6 +28,11 @@ namespace Thc.Web
       // e.g. container.RegisterType<ITestService, TestService>();    
       RegisterTypes(container);
 
+      container.RegisterType<IClienteService, ClienteService>();
+      container.RegisterType<IProveedorService, ProveedorService>();
+      container.RegisterType<IAutoService, AutoService>();
+      container.RegisterType<IAlquilerService, AlquilerService>();
+      RegisterTypes(container);
       return container;
     }
 

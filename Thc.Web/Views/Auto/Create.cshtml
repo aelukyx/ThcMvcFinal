@@ -1,0 +1,118 @@
+﻿@model Thc.Models.Models.Auto
+
+@{
+    ViewBag.Title = "Crear Vehículo";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    
+	<div class="row clearfix">
+
+		<div class="col-md-1 column">
+		</div>
+		<div class="col-md-11 column">
+
+
+        <div class="panel panel-primary" style="width:85%">
+                      <div class="panel-heading">
+                        <b>Datos del Proveedor</b>
+                      </div>
+                        <div class="panel-body">
+
+	                    <div class="row clearfix">
+		                    <div class="col-md-5 column">
+
+                                <div class="editor-label">
+                                    @Html.Label("Placa")
+                                </div>
+                                <div class="editor-field">
+                                    <div class="input-group">
+                                      <div class="input-group-addon"><img src="~/Content/icons/placa-icon.png" width="18px"/></div>
+                                       @Html.TextBoxFor(model => model.Placa, new { style="width:204px"})
+                                    </div>
+                                   <p>
+                                    @Html.ValidationMessageFor(model => model.Placa)
+                                    </p>
+                                </div>
+
+                                <div class="editor-label">
+                                    @Html.Label("Unidad")
+                                </div>
+                                <div class="editor-field">
+                                    <div class="input-group" style="width:89%">
+                                      <div class="input-group-addon" style="width:0.009%"><img src="~/Content/icons/auto-icon.png" width="18px"/></div>
+                                        @Html.DropDownListFor(model => model.UnidadId, (SelectList)ViewBag.UnidadId, new {@class="selectpicker"})
+                                    </div>
+                                    <p>
+                                    @Html.ValidationMessageFor(model => model.UnidadId)
+                                    </p>
+                                </div>
+
+                                <div class="editor-label">
+                                    @Html.Label("Estado")
+                                </div>
+                                <div class="editor-field">
+                                    <div class="input-group" style="width:89%">
+                                      <div class="input-group-addon" style="width:0.009%"><img src="~/Content/icons/estado-icon.png" width="18px"/></div>
+                                        @Html.DropDownListFor(model => model.EstadoId, (SelectList)ViewBag.EstadoId, new {@class="selectpicker"})
+                                    </div>
+                                    <p>
+                                    @Html.ValidationMessageFor(model => model.EstadoId)
+                                    </p>
+                                </div>
+
+  @*                              <div class="editor-label">
+                                    @Html.Label("Imagen")
+                                </div>
+                                <div class="editor-field">
+                                        <input type="file" name="Imagen" /> <br />
+                                    <p>
+                                    @Html.ValidationMessageFor(model => model.EstadoId)
+                                    </p>
+                                </div>*@
+
+                            </div>
+		                    <div class="col-md-1 column">
+		                    </div>
+                            
+		                    <div class="col-md-6 column">
+                                <div class="editor-label">
+                                    @Html.Label("Imagen Guía")
+                                </div>
+                                <p>
+                                <canvas id="preview" style="background-image: url(/Content/images/car-watermark.png); border:1.5px solid #808080; width:200px; height:140px; border-radius:3px">
+                                </canvas></p>
+                                <input type="file" id="pic" name="pic" />
+		                    </div>
+
+                        </div>
+
+                        </div>
+                    </div>            
+
+
+		</div>
+	</div>
+        
+    <div class="row clearfix">
+	    <div class="col-md-11 column" style="text-align:center">
+            <p>
+                <button type="submit" class="btn btn-success">GRABAR</button>&nbsp;&nbsp;
+                <a href="@Url.Action("Index", "Proveedor")" class="btn btn-danger" style="margin: auto; color: #ffffff;">
+                    CANCELAR
+                </a>
+            </p>
+        </div>
+    </div>
+
+}
+
+<script src="~/Scripts/boot.js"></script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

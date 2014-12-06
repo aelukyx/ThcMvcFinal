@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.dll" total="44" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-12-06" time="01:49:44">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="ARCG-PC" user="AlexanderRaúl" user-domain="ARCG-PC" />
+  <culture-info current-culture="es-PE" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\Users\AlexanderRaúl\Documents\GitHub\ThcMvcFinal\Thc.Testing\bin\Debug\Thc.Testing.dll" executed="True" result="Success" success="True" time="0.418" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Demo" executed="True" result="Success" success="True" time="0.135" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.135" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Services" executed="True" result="Success" success="True" time="0.135" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AlquilerServiceTest" executed="True" result="Success" success="True" time="0.028" asserts="0">
+                    <results>
+                      <test-case name="Demo.Test.Services.AlquilerServiceTest._01_TestAllReturnIListPost" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Demo.Test.Services.AlquilerServiceTest._02_TestGetByIdReturnPostIsOk" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="Demo.Test.Services.AlquilerServiceTest._03_TestInsertCreateNewRow" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="AutoServiceTest" executed="True" result="Success" success="True" time="0.028" asserts="0">
+                    <results>
+                      <test-case name="Demo.Test.Services.AutoServiceTest._01_TestAllReturnIListPost" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Demo.Test.Services.AutoServiceTest._02_TestGetByIdReturnPostIsOk" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="Demo.Test.Services.AutoServiceTest._03_TestInsertCreateNewRow" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ClienteServiceTest" executed="True" result="Success" success="True" time="0.027" asserts="0">
+                    <results>
+                      <test-case name="Demo.Test.Services.ClienteServiceTest._01_TestAllReturnIListPost" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Demo.Test.Services.ClienteServiceTest._02_TestGetByIdReturnPostIsOk" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="Demo.Test.Services.ClienteServiceTest._03_TestInsertCreateNewRow" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ProveedorServiceTest" executed="True" result="Success" success="True" time="0.027" asserts="0">
+                    <results>
+                      <test-case name="Demo.Test.Services.ProveedorServiceTest._01_TestAllReturnIListPost" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Demo.Test.Services.ProveedorServiceTest._02_TestGetByIdReturnPostIsOk" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="Demo.Test.Services.ProveedorServiceTest._03_TestInsertCreateNewRow" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="Namespace" name="Thc" executed="True" result="Success" success="True" time="0.264" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Testing" executed="True" result="Success" success="True" time="0.263" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="AlquilerControllerTest" executed="True" result="Success" success="True" time="0.065" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AlquilerControllerTest" executed="True" result="Success" success="True" time="0.064" asserts="0">
+                    <results>
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._01_TestAlquilerIndexReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._02_TestAlquilerCreateReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._03_TestAlquilerSaveSuccessRedirectToIndex" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._04_TestAlquilerDetailsRedirectToIndexWhenIdIsZero" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._05_TestAlquilerDetailsreturnViewIsOk" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._06_TestAlquilerGuardadoCorrectamenteRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._07_TestAlquilerEditReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                      <test-case name="Thc.Testing.AlquilerControllerTest.AlquilerControllerTest._08_TestAlquilerEditEditSaveSuccess" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="AutoControllerTest" executed="True" result="Success" success="True" time="0.057" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AutoControllerTest" executed="True" result="Success" success="True" time="0.056" asserts="0">
+                    <results>
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._01_TestAutoIndexReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._02_TestAutoCreateReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._03_TestAutoSaveSuccessRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._04_TestAutoDetailsRedirectToIndexWhenIdIsZero" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._05_TestAutoDetailsreturnViewIsOk" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._06_TestAutoGuardadoCorrectamenteRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._07_TestAutoEditReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                      <test-case name="Thc.Testing.AutoControllerTest.AutoControllerTest._08_TestAutoEditEditSaveSuccess" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="ClienteControllerTest" executed="True" result="Success" success="True" time="0.055" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ClienteControllerTest" executed="True" result="Success" success="True" time="0.054" asserts="0">
+                    <results>
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._01_TestClienteIndexReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._02_TestClienteCreateReturnViewIsOk" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._03_TestClienteSaveSuccessRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._04_TestClienteDetailsRedirectToIndexWhenIdIsZero" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._05_TestClienteDetailsreturnViewIsOk" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._06_TestClienteGuardadoCorrectamenteRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._07_TestClienteEditReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                      <test-case name="Thc.Testing.ClienteControllerTest.ClienteControllerTest._08_TestClienteEditEditSaveSuccess" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="ProveedorControllerTest" executed="True" result="Success" success="True" time="0.054" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ProveedorControllerTest" executed="True" result="Success" success="True" time="0.053" asserts="0">
+                    <results>
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._01_TestProveedorIndexReturnViewIsOk" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._02_TestProveedorCreateReturnViewIsOk" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._03_TestProveedorSaveSuccessRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._04_TestProveedorDetailsRedirectToIndexWhenIdIsZero" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._05_TestProveedorDetailsreturnViewIsOk" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._06_TestProveedorGuardadoCorrectamenteRedirectToIndex" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._07_TestProveedorEditReturnViewIsOk" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Thc.Testing.ProveedorControllerTest.ProveedorControllerTest._08_TestProveedorEditEditSaveSuccess" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

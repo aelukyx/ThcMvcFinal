@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Thc.Models.Models.Auto>
+
+@{
+    ViewBag.Title = "Vehículos";
+}
+
+
+
+
+
+
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+		</div>
+		<div class="col-md-8 column">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h1>Lista de Vehículos</h1>
+              </div>
+              <div class="panel-body">
+                <form method="GET" class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" name="buscar" class="form-control" size="25"/>
+                    </div>&nbsp;&nbsp;&nbsp;
+                    <button type="submit" class="btn btn-success">Buscar</button>
+                </form>
+                <div align="right">
+                    <a href="@Url.Action("Create", "Auto")" class="btn btn-warning" style="margin: auto; color: #ffffff;">
+                        Registrar Vehículo
+                    </a>
+                </div>
+              </div>
+              <div class="panel-body">
+                <table class="table table-condensed table-striped">
+                    <tr class="info text-primary" style="font-size:12.5px; text-align:center">
+                    <th>
+                    </th>
+                    <th>
+                    </th>
+                    <th>
+                        Placa
+                    </th>
+                    <th>
+                        Unidad
+                    </th>
+                    <th>
+                        Estado Actual
+                    </th>
+                    <th>
+                        Acción
+                    </th>
+                </tr>
+
+            @foreach (var item in Model) {
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Placa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Unidad.DescripcionUnidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estado.DescripcionEstado)
+                    </td>
+                    <td align="left">
+                        <img src="~/Content/icons/pencil-icon.png" title="Editar" width="16px"/>&nbsp;
+                        <img src="~/Content/icons/delete-icon.png" title="Eliminar"  width="18px"/>
+                    </td>
+                </tr>
+            }
+
+                </table>
+              </div>
+            </div>
+		</div>
+		<div class="col-md-2 column">
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
